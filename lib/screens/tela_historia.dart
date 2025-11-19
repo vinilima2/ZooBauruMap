@@ -41,7 +41,7 @@ class TelaHistoria extends StatelessWidget {
                         child: Text(
                           'Com as obras de construção iniciadas em 1977, o Parque Zoológico de Bauru foi inaugurado em 24 de agosto de 1980, contando com um pequeno número de animais, a maioria deles proveniente do zoológico da cidade de Bastos, que acabava de ser desativado.\n\n Localizado em uma área total de 20 hectares, o Zoo Bauru faz limite com o Jardim Botânico Municipal, o qual conserva 280 hectares de cerrado, representando uma das maiores reservas deste bioma no estado de São Paulo.\n\n  Por estar inserido em área de vegetação preservada, o Zoo Bauru abriga diversas espécies da fauna nativa regional, como o tucano-toco, quati, jacupemba, calango-verde, teiú, entre outras que vivem livremente no local.\n\n Além dos cuidados com os animais do plantel, o Zoológico de Bauru auxilia os animais da natureza que chegam por meio da Polícia Ambiental e do Corpo de Bombeiros. Vítimas das ações humanas no ambiente, como os atropelamentos, queimadas e tráfico, estes animais passam por tratamento veterinário e sempre que se tornam aptos retornam ao ambiente natural.',
                           style: TextStyle(
-                            fontFamily: 'Chewy',
+                            fontFamily: 'Inter',
                             fontSize: 20,
                             color: Colors.white,
                             height: 1.5,

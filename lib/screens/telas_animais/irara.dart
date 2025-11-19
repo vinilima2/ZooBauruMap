@@ -42,7 +42,7 @@ class _IraraScreenState extends State<IraraScreen> {
             'Irara',
             style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Chewy',
+              fontFamily: 'Inter',
               fontSize: 22,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
@@ -68,7 +68,7 @@ class _IraraScreenState extends State<IraraScreen> {
                 'Irara',
                 style: TextStyle(
                   fontSize: 32,
-                  fontFamily: 'Bangers',
+                  fontFamily: 'Roboto',
                   fontWeight: FontWeight.w900,
                   color: Color(0xFF065F0D),
                   letterSpacing: 3.0,
@@ -80,7 +80,7 @@ class _IraraScreenState extends State<IraraScreen> {
                     'Solta um odor forte (gândulas anais, como um gambá).',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Chewy',
+                  fontFamily: 'Inter',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -93,7 +93,7 @@ class _IraraScreenState extends State<IraraScreen> {
                     'Espécie: Eira Barbara.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -107,7 +107,7 @@ class _IraraScreenState extends State<IraraScreen> {
                     'Status de conservação: Pouco Preocupante.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -121,7 +121,7 @@ class _IraraScreenState extends State<IraraScreen> {
                     'Entre 60cm e 75cm (Corpo).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -145,7 +145,7 @@ class _IraraScreenState extends State<IraraScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
@@ -169,7 +169,7 @@ class _IraraScreenState extends State<IraraScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),

@@ -42,7 +42,7 @@ class _TucanoScreenState extends State<TucanoScreen> {
             'Ramphastídeos',
             style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Chewy',
+              fontFamily: 'Inter',
               fontSize: 22,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
@@ -68,7 +68,7 @@ class _TucanoScreenState extends State<TucanoScreen> {
                 'Tucano',
                 style: TextStyle(
                   fontSize: 30,
-                  fontFamily: 'Bangers',
+                  fontFamily: 'Roboto',
                   fontWeight: FontWeight.w900,
                   color: Color(0xFF065F0D),
                   letterSpacing: 3.0,
@@ -80,7 +80,7 @@ class _TucanoScreenState extends State<TucanoScreen> {
                     ' Se comunica com crocitos graves e batidas de bico em galhos.',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Chewy',
+                  fontFamily: 'Inter',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -93,7 +93,7 @@ class _TucanoScreenState extends State<TucanoScreen> {
                     'Espécie: Ramphastos Toco.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -107,7 +107,7 @@ class _TucanoScreenState extends State<TucanoScreen> {
                     'Status de conservação: Pouco Preocupante.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -121,7 +121,7 @@ class _TucanoScreenState extends State<TucanoScreen> {
                     'Tamanho: Entre 50cm e 65cm (Com o bico).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -145,7 +145,7 @@ class _TucanoScreenState extends State<TucanoScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
@@ -169,7 +169,7 @@ class _TucanoScreenState extends State<TucanoScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),

@@ -42,7 +42,7 @@ class _GrandesFelinosScreenState extends State<GrandesFelinosScreen> {
             'Grandes Felinos',
             style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Chewy',
+              fontFamily: 'Inter',
               fontSize: 22,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
@@ -68,7 +68,7 @@ class _GrandesFelinosScreenState extends State<GrandesFelinosScreen> {
                 'ONÇA PINTADA',
                 style: TextStyle(
                   fontSize: 32,
-                  fontFamily: 'Bangers',
+                  fontFamily: 'Roboto',
                   fontWeight: FontWeight.w900,
                   color: Color(0xFF065F0D),
                   letterSpacing: 3.0,
@@ -80,7 +80,7 @@ class _GrandesFelinosScreenState extends State<GrandesFelinosScreen> {
                     'Sobe em árvores para arrastar presas pesadas (únicas entre grandes felinos).',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Chewy',
+                  fontFamily: 'Inter',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -93,7 +93,7 @@ class _GrandesFelinosScreenState extends State<GrandesFelinosScreen> {
                     'Espécie: Panthera Onca.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -107,7 +107,7 @@ class _GrandesFelinosScreenState extends State<GrandesFelinosScreen> {
                     'Status de conservação: Quase Ameaçada.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -121,7 +121,7 @@ class _GrandesFelinosScreenState extends State<GrandesFelinosScreen> {
                     'Entre 1,7m e 2,5m (Cabeça e Corpo).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -145,7 +145,7 @@ class _GrandesFelinosScreenState extends State<GrandesFelinosScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
@@ -169,7 +169,7 @@ class _GrandesFelinosScreenState extends State<GrandesFelinosScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),

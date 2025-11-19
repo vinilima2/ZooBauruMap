@@ -42,7 +42,7 @@ class _AvesMarinhasScreenState extends State<AvesMarinhasScreen> {
             'Aves Marinhas',
             style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Chewy',
+              fontFamily: 'Inter',
               fontSize: 22,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
@@ -68,7 +68,7 @@ class _AvesMarinhasScreenState extends State<AvesMarinhasScreen> {
                 'Cisne-Negro',
                 style: TextStyle(
                   fontSize: 30,
-                  fontFamily: 'Bangers',
+                  fontFamily: 'Roboto',
                   fontWeight: FontWeight.w900,
                   color: Color(0xFF065F0D),
                   letterSpacing: 3.0,
@@ -80,7 +80,7 @@ class _AvesMarinhasScreenState extends State<AvesMarinhasScreen> {
                     ' Voam em formação em V durante migrações.',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Chewy',
+                  fontFamily: 'Inter',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -93,7 +93,7 @@ class _AvesMarinhasScreenState extends State<AvesMarinhasScreen> {
                     'Espécie: Cygnus Atratus.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -107,7 +107,7 @@ class _AvesMarinhasScreenState extends State<AvesMarinhasScreen> {
                     'Status de conservação: Pouco Preocupante.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -121,7 +121,7 @@ class _AvesMarinhasScreenState extends State<AvesMarinhasScreen> {
                     'Tamanho: Entre 1,1m e 1,4m (Corpo).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -145,7 +145,7 @@ class _AvesMarinhasScreenState extends State<AvesMarinhasScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
@@ -169,7 +169,7 @@ class _AvesMarinhasScreenState extends State<AvesMarinhasScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),

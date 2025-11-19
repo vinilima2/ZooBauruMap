@@ -12,7 +12,7 @@ class BackgroundWidget extends StatelessWidget {
       height: double.infinity, // garante que ocupe toda a altura da tela
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/Tela Inicial (1).png'),
+          image: AssetImage('assets/images/Tela Inicial.png'),
           fit: BoxFit.cover, // cobre toda a área disponível
         ),
       ),

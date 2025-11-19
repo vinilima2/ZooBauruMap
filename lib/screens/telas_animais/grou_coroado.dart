@@ -42,7 +42,7 @@ class _GrouCoroadoScreenState extends State<GrouCoroadoScreen> {
             'Grou-Coroado',
             style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Chewy',
+              fontFamily: 'Inter',
               fontSize: 22,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
@@ -68,7 +68,7 @@ class _GrouCoroadoScreenState extends State<GrouCoroadoScreen> {
                 'GROU-COROADO',
                 style: TextStyle(
                   fontSize: 30,
-                  fontFamily: 'Bangers',
+                  fontFamily: 'Roboto',
                   fontWeight: FontWeight.w900,
                   color: Color(0xFF065F0D),
                   letterSpacing: 3.0,
@@ -80,7 +80,7 @@ class _GrouCoroadoScreenState extends State<GrouCoroadoScreen> {
                     ' Saltos altos, bater de asas e "cantos" trombeteados para atrair parceiros. Casais duradouros (fazem turnê de dança juntos por anos).',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Chewy',
+                  fontFamily: 'Inter',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -93,7 +93,7 @@ class _GrouCoroadoScreenState extends State<GrouCoroadoScreen> {
                     'Espécie: Balearica Regulorum.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -107,7 +107,7 @@ class _GrouCoroadoScreenState extends State<GrouCoroadoScreen> {
                     'Status de conservação: Em Perigo.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -121,7 +121,7 @@ class _GrouCoroadoScreenState extends State<GrouCoroadoScreen> {
                     'Tamanho: Entre 1m e 1,2m (Corpo).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -145,7 +145,7 @@ class _GrouCoroadoScreenState extends State<GrouCoroadoScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
@@ -169,7 +169,7 @@ class _GrouCoroadoScreenState extends State<GrouCoroadoScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),

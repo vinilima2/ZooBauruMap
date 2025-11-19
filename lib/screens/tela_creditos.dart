@@ -59,7 +59,7 @@ class TelaCreditos extends StatelessWidget {
                                   ' Vinícius Dos Santos',
                               style: TextStyle(
                                 fontSize: 20,
-                                fontFamily: 'Chewy',  // Aplicando a fonte Chewy
+                                fontFamily: 'Inter',  // Aplicando a fonte Inter
                                 color: Colors.white,
                                 height: 1.5,
                               ),
@@ -70,7 +70,7 @@ class TelaCreditos extends StatelessWidget {
                               '🧠 Desenvolvimento: ',
                               style: TextStyle(
                                 fontSize: 20,
-                                fontFamily: 'Chewy',  // Aplicando a fonte Chewy
+                                fontFamily: 'Inter',  // Aplicando a fonte Inter
                                 color: Colors.white,
                                 height: 1.5,
                               ),
@@ -86,7 +86,7 @@ class TelaCreditos extends StatelessWidget {
                               '🤝 Apoio: ',
                               style: TextStyle(
                                 fontSize: 20,
-                                fontFamily: 'Chewy',  // Aplicando a fonte Chewy
+                                fontFamily: 'Inter',  // Aplicando a fonte Inter
                                 color: Colors.white,
                                 height: 1.5,
                               ),

@@ -42,7 +42,7 @@ class _AvesDeRapinaScreenState extends State<AvesDeRapinaScreen> {
             'Aves De Rapina',
             style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Chewy',
+              fontFamily: 'Inter',
               fontSize: 22,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
@@ -68,7 +68,7 @@ class _AvesDeRapinaScreenState extends State<AvesDeRapinaScreen> {
                 'Urubu-Rei',
                 style: TextStyle(
                   fontSize: 30,
-                  fontFamily: 'Bangers',
+                  fontFamily: 'Roboto',
                   fontWeight: FontWeight.w900,
                   color: Color(0xFF065F0D),
                   letterSpacing: 3.0,
@@ -80,7 +80,7 @@ class _AvesDeRapinaScreenState extends State<AvesDeRapinaScreen> {
                     ' Planador excepcional: Pode voar horas sem bater as asas, usando correntes de ar quente.',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Chewy',
+                  fontFamily: 'Inter',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -93,7 +93,7 @@ class _AvesDeRapinaScreenState extends State<AvesDeRapinaScreen> {
                     'Espécie: Sarcoramphus Papa.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -107,7 +107,7 @@ class _AvesDeRapinaScreenState extends State<AvesDeRapinaScreen> {
                     'Status de conservação: Pouco Preocupante.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -121,7 +121,7 @@ class _AvesDeRapinaScreenState extends State<AvesDeRapinaScreen> {
                     'Tamanho: Entre 70cm e 80cm (Corpo).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -145,7 +145,7 @@ class _AvesDeRapinaScreenState extends State<AvesDeRapinaScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
@@ -169,7 +169,7 @@ class _AvesDeRapinaScreenState extends State<AvesDeRapinaScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),

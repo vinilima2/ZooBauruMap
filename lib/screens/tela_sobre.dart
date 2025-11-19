@@ -35,7 +35,7 @@ class TelaSobre extends StatelessWidget {
                         'Aqui, os visitantes podem conhecer mais sobre a história do zoológico, aprender sobre os animais e ambientes naturais representados, e se preparar para uma visita inesquecível.\n\n'
                         'O "Zoo Bauru" também busca incentivar o turismo local, a conscientização ambiental e o respeito à vida animal.',
                     fontSize: 20,
-                    // Fonte "Chewy" aplicada apenas ao texto
+                    // Fonte "Inter" aplicada apenas ao texto
                     textColor: Colors.white,
                     customChild: Text(
                       'O aplicativo "Zoo Bauru" foi desenvolvido com o objetivo de aproximar o público do Zoológico Municipal de Bauru, oferecendo uma experiência informativa e interativa.\n\n'
@@ -43,7 +43,7 @@ class TelaSobre extends StatelessWidget {
                           'O "Zoo Bauru" também busca incentivar o turismo local, a conscientização ambiental e o respeito à vida animal.\n\n'
                           'Observação: Este aplicativo não contém todos os animais presentes no zoológico, e alguns podem não estar representados em suas localizações exatas. Agradecemos a compreensão!',
                       style: TextStyle(
-                        fontFamily: 'Chewy',  // Fonte "Chewy" aplicada no texto
+                        fontFamily: 'Inter',  // Fonte "Inter" aplicada no texto
                         fontSize: 20,
                         color: Colors.white,
                         height: 1.5,

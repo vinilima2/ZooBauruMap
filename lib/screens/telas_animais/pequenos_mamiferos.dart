@@ -42,7 +42,7 @@ class _PequenosMamiferosScreenState extends State<PequenosMamiferosScreen> {
             'Pequenos Mamíferos',
             style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Chewy',
+              fontFamily: 'Inter',
               fontSize: 22,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
@@ -68,7 +68,7 @@ class _PequenosMamiferosScreenState extends State<PequenosMamiferosScreen> {
                 'FURÃO',
                 style: TextStyle(
                   fontSize: 30,
-                  fontFamily: 'Bangers',
+                  fontFamily: 'Roboto',
                   fontWeight: FontWeight.w900,
                   color: Color(0xFF065F0D),
                   letterSpacing: 3.0,
@@ -80,7 +80,7 @@ class _PequenosMamiferosScreenState extends State<PequenosMamiferosScreen> {
                     ' Sociáveis com humanos e outros furões (mas podem morder se assustados).',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Chewy',
+                  fontFamily: 'Inter',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -93,7 +93,7 @@ class _PequenosMamiferosScreenState extends State<PequenosMamiferosScreen> {
                     'Espécie: Mustela Putorius Furo.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -108,7 +108,7 @@ class _PequenosMamiferosScreenState extends State<PequenosMamiferosScreen> {
                         'status na IUCN.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -122,7 +122,7 @@ class _PequenosMamiferosScreenState extends State<PequenosMamiferosScreen> {
                     'Tamanho: Entre 35cm e 50cm (Corpo).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -146,7 +146,7 @@ class _PequenosMamiferosScreenState extends State<PequenosMamiferosScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
@@ -170,7 +170,7 @@ class _PequenosMamiferosScreenState extends State<PequenosMamiferosScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),

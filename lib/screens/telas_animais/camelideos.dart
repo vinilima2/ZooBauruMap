@@ -42,7 +42,7 @@ class _CamelideosScreenState extends State<CamelideosScreen> {
             'Camelídeos',
             style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Chewy',
+              fontFamily: 'Inter',
               fontSize: 22,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
@@ -68,7 +68,7 @@ class _CamelideosScreenState extends State<CamelideosScreen> {
                 'ALPACA',
                 style: TextStyle(
                   fontSize: 30,
-                  fontFamily: 'Bangers',
+                  fontFamily: 'Roboto',
                   fontWeight: FontWeight.w900,
                   color: Color(0xFF065F0D),
                   letterSpacing: 3.0,
@@ -80,7 +80,7 @@ class _CamelideosScreenState extends State<CamelideosScreen> {
                     ' Cuspidoras seletivas (só cospem em rivais na disputa por comida).',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Chewy',
+                  fontFamily: 'Inter',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -93,7 +93,7 @@ class _CamelideosScreenState extends State<CamelideosScreen> {
                     'Espécie: Vicugna Pacos.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -108,7 +108,7 @@ class _CamelideosScreenState extends State<CamelideosScreen> {
                         'status na IUCN.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -122,7 +122,7 @@ class _CamelideosScreenState extends State<CamelideosScreen> {
                     'Tamanho: Entre 1,2m e 1,5m (Corpo).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -146,7 +146,7 @@ class _CamelideosScreenState extends State<CamelideosScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
@@ -170,7 +170,7 @@ class _CamelideosScreenState extends State<CamelideosScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),

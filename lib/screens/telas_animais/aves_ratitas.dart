@@ -42,7 +42,7 @@ class _AvesRatitasScreenState extends State<AvesRatitasScreen> {
             'Aves Ratitas',
             style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Chewy',
+              fontFamily: 'Inter',
               fontSize: 22,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
@@ -68,7 +68,7 @@ class _AvesRatitasScreenState extends State<AvesRatitasScreen> {
                 'CASUAR',
                 style: TextStyle(
                   fontSize: 30,
-                  fontFamily: 'Bangers',
+                  fontFamily: 'Roboto',
                   fontWeight: FontWeight.w900,
                   color: Color(0xFF065F0D),
                   letterSpacing: 3.0,
@@ -80,7 +80,7 @@ class _AvesRatitasScreenState extends State<AvesRatitasScreen> {
                     ' (inaudíveis para humanos, mas sentidos como vibrações). Ataca com chutes frontais (capazes de ferir humanos gravemente).',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Chewy',
+                  fontFamily: 'Inter',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -93,7 +93,7 @@ class _AvesRatitasScreenState extends State<AvesRatitasScreen> {
                     'Espécie: Casuarius Casuarius.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -107,7 +107,7 @@ class _AvesRatitasScreenState extends State<AvesRatitasScreen> {
                     'Status de conservação: Vulnerável.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -121,7 +121,7 @@ class _AvesRatitasScreenState extends State<AvesRatitasScreen> {
                     'Tamanho: Entre 1,5m e 1,8m (Corpo).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -145,7 +145,7 @@ class _AvesRatitasScreenState extends State<AvesRatitasScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
@@ -169,7 +169,7 @@ class _AvesRatitasScreenState extends State<AvesRatitasScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),

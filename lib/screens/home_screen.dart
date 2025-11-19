@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
             children: [
               // Título
               Positioned(
-                top: height * 0.08,
+                top: height * 0.15,
                 left: 0,
                 right: 0,
                 child: Column(
@@ -31,7 +31,7 @@ class HomeScreen extends StatelessWidget {
                         fontSize: 32,
                         fontWeight: FontWeight.normal,
                         color: Colors.black,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 3.0,
                       ),
                       textAlign: TextAlign.center,
@@ -41,9 +41,9 @@ class HomeScreen extends StatelessWidget {
                       'Zoo Bauru',
                       style: TextStyle(
                         fontSize: 48,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         fontWeight: FontWeight.bold,
-                        color: Color(0xFF02520D),
+                        color: Color(0xFF287240),
                         letterSpacing: 5.0,
                         shadows: [
                           Shadow(
@@ -61,7 +61,7 @@ class HomeScreen extends StatelessWidget {
 
               // Botões
               Positioned(
-                top: height * 0.24,
+                top: height * 0.30,
                 left: width * 0.05,
                 right: width * 0.05,
                 child: Column(
@@ -136,7 +136,7 @@ class _AnimatedButtonState extends State<AnimatedButton> {
       duration: Duration(milliseconds: 150),
       curve: Curves.easeOut,
       child: Material(
-        color: Color(0xFF02520D),
+        color: Color(0xFF287240),
         elevation: 6,
         borderRadius: BorderRadius.circular(30),
         shadowColor: Colors.black54,
@@ -153,7 +153,7 @@ class _AnimatedButtonState extends State<AnimatedButton> {
             child: Text(
               widget.text,
               style: TextStyle(
-                fontFamily: 'Bangers',
+                fontFamily: 'Roboto',
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
                 fontSize: 28,

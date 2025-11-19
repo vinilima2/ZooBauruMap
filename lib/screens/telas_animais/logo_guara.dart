@@ -42,7 +42,7 @@ class _LoboGuaraScreenState extends State<LoboGuaraScreen> {
             'Lobo-Guará',
             style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Chewy',
+              fontFamily: 'Inter',
               fontSize: 22,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
@@ -68,7 +68,7 @@ class _LoboGuaraScreenState extends State<LoboGuaraScreen> {
                 'Lobo-Guará',
                 style: TextStyle(
                   fontSize: 30,
-                  fontFamily: 'Bangers',
+                  fontFamily: 'Roboto',
                   fontWeight: FontWeight.w900,
                   color: Color(0xFF065F0D),
                   letterSpacing: 3.0,
@@ -80,7 +80,7 @@ class _LoboGuaraScreenState extends State<LoboGuaraScreen> {
                     ' Urina com cheiro de "maconha" (devido a compostos da lobeira, sua fruta favorita). ',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Chewy',
+                  fontFamily: 'Inter',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -93,7 +93,7 @@ class _LoboGuaraScreenState extends State<LoboGuaraScreen> {
                     'Espécie: Chrysocyon Brachyurus.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -107,7 +107,7 @@ class _LoboGuaraScreenState extends State<LoboGuaraScreen> {
                     'Status de conservação: Quase Ameaçado.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -121,7 +121,7 @@ class _LoboGuaraScreenState extends State<LoboGuaraScreen> {
                     'Tamanho: Entre 1,2m e 1,3m (Corpo).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -145,7 +145,7 @@ class _LoboGuaraScreenState extends State<LoboGuaraScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
@@ -169,7 +169,7 @@ class _LoboGuaraScreenState extends State<LoboGuaraScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),

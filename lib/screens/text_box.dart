@@ -55,7 +55,7 @@ class TextBox extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: textColor,
                     letterSpacing: 1.2,
-                    fontFamily: 'Bangers',
+                    fontFamily: 'Roboto',
                   ),
                   textAlign: TextAlign.center,
                 ),

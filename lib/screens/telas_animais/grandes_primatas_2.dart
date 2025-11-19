@@ -42,7 +42,7 @@ class _GrandesPrimatasScreenState extends State<GrandesPrimatasScreen2> {
             'Grandes Primatas Brasileiros',
             style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Chewy',
+              fontFamily: 'Inter',
               fontSize: 22,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
@@ -68,7 +68,7 @@ class _GrandesPrimatasScreenState extends State<GrandesPrimatasScreen2> {
                 'MICO-LEÃO-DOURADO',
                 style: TextStyle(
                   fontSize: 32,
-                  fontFamily: 'Bangers',
+                  fontFamily: 'Roboto',
                   fontWeight: FontWeight.w900,
                   color: Color(0xFF065F0D),
                   letterSpacing: 3.0,
@@ -79,7 +79,7 @@ class _GrandesPrimatasScreenState extends State<GrandesPrimatasScreen2> {
                 'O Mico-Leão-Dourado, é um dos primatas mais icônicos do Brasil, conhecido por sua pelagem vibrante e status de conservação crítico.',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Chewy',
+                  fontFamily: 'Inter',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -92,7 +92,7 @@ class _GrandesPrimatasScreenState extends State<GrandesPrimatasScreen2> {
                     'Espécie: Leontopithecus Rosalia.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -106,7 +106,7 @@ class _GrandesPrimatasScreenState extends State<GrandesPrimatasScreen2> {
                     'Status de conservação: Em perigo.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -120,7 +120,7 @@ class _GrandesPrimatasScreenState extends State<GrandesPrimatasScreen2> {
                     'Tamanho: Entre 20cm a 33cm (Corpo).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -144,7 +144,7 @@ class _GrandesPrimatasScreenState extends State<GrandesPrimatasScreen2> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
@@ -168,7 +168,7 @@ class _GrandesPrimatasScreenState extends State<GrandesPrimatasScreen2> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),

@@ -42,7 +42,7 @@ class _PavaoScreenState extends State<PavaoScreen> {
             'Pavão',
             style: TextStyle(
               color: Colors.black,
-              fontFamily: 'Chewy',
+              fontFamily: 'Inter',
               fontSize: 22,
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
@@ -68,7 +68,7 @@ class _PavaoScreenState extends State<PavaoScreen> {
                 'PAVÃO ALERQUIM',
                 style: TextStyle(
                   fontSize: 30,
-                  fontFamily: 'Bangers',
+                  fontFamily: 'Roboto',
                   fontWeight: FontWeight.w900,
                   color: Color(0xFF065F0D),
                   letterSpacing: 3.0,
@@ -80,7 +80,7 @@ class _PavaoScreenState extends State<PavaoScreen> {
                     ' o leque de penas e vibram as asas para atrair fêmeas.',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Chewy',
+                  fontFamily: 'Inter',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -93,7 +93,7 @@ class _PavaoScreenState extends State<PavaoScreen> {
                     'Espécie: Pavo Cristatus.',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -108,7 +108,7 @@ class _PavaoScreenState extends State<PavaoScreen> {
                         '(Mutação do Pavão-Azul).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -122,7 +122,7 @@ class _PavaoScreenState extends State<PavaoScreen> {
                     'Tamanho: Entre 1,2m e 1,6m (Corpo).',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: 'Chewy',
+                      fontFamily: 'Inter',
                     ),
                   ),
                 ],
@@ -146,7 +146,7 @@ class _PavaoScreenState extends State<PavaoScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
@@ -170,7 +170,7 @@ class _PavaoScreenState extends State<PavaoScreen> {
                       ),
                       textStyle: const TextStyle(
                         fontSize: 20,
-                        fontFamily: 'Bangers',
+                        fontFamily: 'Roboto',
                         letterSpacing: 1.0,
                       ),
                     ),
