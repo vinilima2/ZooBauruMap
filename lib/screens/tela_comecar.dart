@@ -1,32 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:zoobaurumap/screens/telas_animais/aves_marinhas.dart';
-import 'package:zoobaurumap/screens/telas_animais/aves_rapina.dart';
-import 'package:zoobaurumap/screens/telas_animais/aves_ratitas.dart';
-import 'package:zoobaurumap/screens/telas_animais/aves_ribeirinhas.dart';
-import 'package:zoobaurumap/screens/telas_animais/camelideos.dart';
-import 'package:zoobaurumap/screens/telas_animais/canguru.dart';
-import 'package:zoobaurumap/screens/telas_animais/cervideos.dart';
-import 'package:zoobaurumap/screens/telas_animais/corujas.dart';
-import 'package:zoobaurumap/screens/telas_animais/grandes_felinos.dart';
-import 'package:zoobaurumap/screens/telas_animais/grandes_primatas_2.dart';
-import 'package:zoobaurumap/screens/telas_animais/grandes_primatas_3.dart';
-import 'package:zoobaurumap/screens/telas_animais/grandes_psitacideos.dart';
-import 'package:zoobaurumap/screens/telas_animais/grou_coroado.dart';
-import 'package:zoobaurumap/screens/telas_animais/irara.dart';
-import 'package:zoobaurumap/screens/telas_animais/logo_guara.dart';
-import 'package:zoobaurumap/screens/telas_animais/ourico.dart';
-import 'package:zoobaurumap/screens/telas_animais/pavao.dart';
-import 'package:zoobaurumap/screens/telas_animais/pequenas_aves.dart';
-import 'package:zoobaurumap/screens/telas_animais/pequenos%20primatas.dart';
-import 'package:zoobaurumap/screens/telas_animais/pequenos_mamiferos.dart';
-import 'package:zoobaurumap/screens/telas_animais/pequenos_psitacideos.dart';
-import 'package:zoobaurumap/screens/telas_animais/primatas_africanos.dart';
-import 'package:zoobaurumap/screens/telas_animais/ramphastideos.dart';
-import 'package:zoobaurumap/screens/telas_animais/repteis.dart';
-import 'package:zoobaurumap/screens/telas_animais/tamandua.dart';
-import '../background_widget.dart';
-import 'package:zoobaurumap/screens/custom_back_button.dart';
-import 'telas_animais/grandes_primatas.dart';
+import 'package:zoobaurumap/constants/indices.dart';
+import 'package:zoobaurumap/screens/tela_animal.dart';
 
 class AnimalButton extends StatelessWidget {
   final String label;
@@ -46,10 +20,7 @@ class AnimalButton extends StatelessWidget {
       child: CircleAvatar(
         radius: 10,
         backgroundColor: Colors.white,
-        child: Text(
-          emoji,
-          style: TextStyle(fontSize: 12),
-        ),
+        child: Text(emoji, style: TextStyle(fontSize: 12)),
       ),
     );
   }
@@ -76,13 +47,9 @@ class TelaComecar extends StatelessWidget {
           ),
           content: Text(
             "1. A seguir temos o mapa do Zoológico Municipal de Bauru.\n\n"
-                "2. Utilize o 'Zoom' e arraste para os lados para a visualização.\n\n"
-                "3. Clique nos ícones para a melhor visualização dos animais.",
-            style: TextStyle(
-              fontSize: 16,
-              color: Colors.white70,
-              height: 1.5,
-            ),
+            "2. Utilize o 'Zoom' e arraste para os lados para a visualização.\n\n"
+            "3. Clique nos ícones para a melhor visualização dos animais.",
+            style: TextStyle(fontSize: 16, color: Colors.white70, height: 1.5),
             textAlign: TextAlign.justify,
           ),
           actionsPadding: EdgeInsets.only(bottom: 8),
@@ -150,7 +117,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const GrandesPrimatasScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.guariba.indice,
+                                  ),
                             ),
                           );
                         },
@@ -166,7 +136,11 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const GrandesPrimatasScreen2(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal:
+                                        IndiceAnimal.micoLeaoDourado.indice,
+                                  ),
                             ),
                           );
                         },
@@ -182,7 +156,11 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const PequenosPrimatasScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal:
+                                        IndiceAnimal.micoLeaoCaraDourada.indice,
+                                  ),
                             ),
                           );
                         },
@@ -198,7 +176,11 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const PavaoScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal:
+                                        IndiceAnimal.pavaoAlerquim.indice,
+                                  ),
                             ),
                           );
                         },
@@ -214,7 +196,11 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const PequenosPsitacideosScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal:
+                                        IndiceAnimal.jandaiaVerdadeira.indice,
+                                  ),
                             ),
                           );
                         },
@@ -230,7 +216,11 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const TamanduaScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal:
+                                        IndiceAnimal.tamanduaMirim.indice,
+                                  ),
                             ),
                           );
                         },
@@ -241,13 +231,18 @@ class TelaComecar extends StatelessWidget {
                       left: MediaQuery.of(context).size.width * 0.57,
                       child: AnimalButton(
                         emoji: "🦧",
-                        label: "Primatas\n"
+                        label:
+                            "Primatas\n"
                             "Africanos",
                         onTap: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const PrimatasAfricanosScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal:
+                                        IndiceAnimal.babuinoSagrado.indice,
+                                  ),
                             ),
                           );
                         },
@@ -258,13 +253,17 @@ class TelaComecar extends StatelessWidget {
                       left: MediaQuery.of(context).size.width * 0.63,
                       child: AnimalButton(
                         emoji: "🐿️",
-                        label: "Pequenos\n"
+                        label:
+                            "Pequenos\n"
                             "Mamíferos",
                         onTap: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const PequenosMamiferosScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.furao.indice,
+                                  ),
                             ),
                           );
                         },
@@ -275,13 +274,17 @@ class TelaComecar extends StatelessWidget {
                       left: MediaQuery.of(context).size.width * 0.72,
                       child: AnimalButton(
                         emoji: "🦃",
-                        label: "Aves\n"
+                        label:
+                            "Aves\n"
                             "Ratitas",
                         onTap: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const AvesRatitasScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.casuar.indice,
+                                  ),
                             ),
                           );
                         },
@@ -292,13 +295,17 @@ class TelaComecar extends StatelessWidget {
                       left: MediaQuery.of(context).size.width * 0.85,
                       child: AnimalButton(
                         emoji: "🦃",
-                        label: "Aves\n"
+                        label:
+                            "Aves\n"
                             "Ratitas",
                         onTap: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const AvesRatitasScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.casuar.indice,
+                                  ),
                             ),
                           );
                         },
@@ -309,13 +316,17 @@ class TelaComecar extends StatelessWidget {
                       left: MediaQuery.of(context).size.width * 0.82,
                       child: AnimalButton(
                         emoji: "🦃",
-                        label: "Aves\n"
+                        label:
+                            "Aves\n"
                             "Ratitas",
                         onTap: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const AvesRatitasScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.casuar.indice,
+                                  ),
                             ),
                           );
                         },
@@ -326,13 +337,17 @@ class TelaComecar extends StatelessWidget {
                       left: MediaQuery.of(context).size.width * 0.79,
                       child: AnimalButton(
                         emoji: "🦃",
-                        label: "Aves\n"
+                        label:
+                            "Aves\n"
                             "Ratitas",
                         onTap: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const AvesRatitasScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.casuar.indice,
+                                  ),
                             ),
                           );
                         },
@@ -348,7 +363,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const CorujasScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.suindara.indice,
+                                  ),
                             ),
                           );
                         },
@@ -364,7 +382,11 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const GrouCoroadoScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal:
+                                        IndiceAnimal.grouCoroado.indice,
+                                  ),
                             ),
                           );
                         },
@@ -375,13 +397,18 @@ class TelaComecar extends StatelessWidget {
                       left: MediaQuery.of(context).size.width * 0.62,
                       child: AnimalButton(
                         emoji: "🦜",
-                        label: "Grandes\n"
+                        label:
+                            "Grandes\n"
                             "Psitacídeos",
                         onTap: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const GrandesPsitacideosScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal:
+                                        IndiceAnimal.papagaioCampeiro.indice,
+                                  ),
                             ),
                           );
                         },
@@ -397,7 +424,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const CervideosScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.cervoDama.indice,
+                                  ),
                             ),
                           );
                         },
@@ -413,7 +443,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const AvesDeRapinaScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.urubuRei.indice,
+                                  ),
                             ),
                           );
                         },
@@ -429,7 +462,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const CamelideosScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.alpaca.indice,
+                                  ),
                             ),
                           );
                         },
@@ -445,7 +481,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const CamelideosScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.alpaca.indice,
+                                  ),
                             ),
                           );
                         },
@@ -461,7 +500,11 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const GrandesFelinosScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal:
+                                        IndiceAnimal.oncaPintada.indice,
+                                  ),
                             ),
                           );
                         },
@@ -477,7 +520,11 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const AvesMarinhasScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal:
+                                        IndiceAnimal.cisneNegro.indice,
+                                  ),
                             ),
                           );
                         },
@@ -493,7 +540,11 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const GrandesPrimatasScreen3(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal:
+                                        IndiceAnimal.micoLeaoCaraDourada.indice,
+                                  ),
                             ),
                           );
                         },
@@ -509,7 +560,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const CanguruScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.canguru.indice,
+                                  ),
                             ),
                           );
                         },
@@ -525,7 +579,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const IraraScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.irara.indice,
+                                  ),
                             ),
                           );
                         },
@@ -541,7 +598,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const LoboGuaraScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.loboGuara.indice,
+                                  ),
                             ),
                           );
                         },
@@ -557,7 +617,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const GralhaScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.gralha.indice,
+                                  ),
                             ),
                           );
                         },
@@ -573,7 +636,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const RepteisScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.jiboia.indice,
+                                  ),
                             ),
                           );
                         },
@@ -589,7 +655,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const GuaraScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.guara.indice,
+                                  ),
                             ),
                           );
                         },
@@ -605,7 +674,10 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const TucanoScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal: IndiceAnimal.tucano.indice,
+                                  ),
                             ),
                           );
                         },
@@ -621,7 +693,11 @@ class TelaComecar extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const OuricoScreen(),
+                              builder:
+                                  (context) => AnimalScreen(
+                                    indiceAnimal:
+                                        IndiceAnimal.ouricoCacheiro.indice,
+                                  ),
                             ),
                           );
                         },
@@ -654,17 +730,10 @@ class DetalheAnimalScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(titulo),
-      ),
-    );
+    return Scaffold(appBar: AppBar(title: Text(titulo)));
   }
 }
 
 void main() {
-  runApp(MaterialApp(
-    home: TelaComecar(),
-    debugShowCheckedModeBanner: false,
-  ));
+  runApp(MaterialApp(home: TelaComecar(), debugShowCheckedModeBanner: false));
 }
