@@ -5,6 +5,7 @@ import 'package:zoobaurumap/screens/tela_comecar.dart';
 import 'package:zoobaurumap/screens/tela_historia.dart';
 import 'package:zoobaurumap/screens/tela_sobre.dart';
 import 'package:zoobaurumap/screens/tela_creditos.dart';
+import 'package:zoobaurumap/screens/guia_visitante_screen.dart'; // Importa a nova tela
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -69,6 +70,11 @@ class HomeScreen extends StatelessWidget {
                     AnimatedButton(
                       text: 'Começar',
                       destination: TelaComecar(),
+                    ),
+                    SizedBox(height: 30),
+                    AnimatedButton(
+                      text: 'Guia Educativo', // Novo botão
+                      destination: GuiaVisitanteScreen(), // Leva para a nova tela
                     ),
                     SizedBox(height: 30),
                     AnimatedButton(
