@@ -55,23 +55,36 @@ class GuiaVisitanteScreen extends StatelessWidget {
     ];
 
     return Scaffold(
+      backgroundColor: const Color(0xFFC4D2B6),
       appBar: AppBar(
         title: const Text(
           'Guia Educativo',
-          style: TextStyle(color: Colors.white), // Cor do título alterada
+          style: TextStyle(color: Colors.white),
         ),
         backgroundColor: const Color(0xFF287240),
-        iconTheme: const IconThemeData(color: Colors.white), // Garante que o ícone de voltar seja branco
+        iconTheme: const IconThemeData(color: Colors.white),
       ),
       body: ListView.builder(
+        padding: const EdgeInsets.all(8.0),
         itemCount: categorias.length,
         itemBuilder: (context, index) {
           final categoria = categorias[index];
           return Card(
-            margin: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+            elevation: 4.0,
+            color: const Color(0xFF287240),
+            margin: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 6.0),
             child: ListTile(
-              title: Text(categoria),
-              trailing: const Icon(Icons.arrow_forward_ios),
+              contentPadding: const EdgeInsets.symmetric(vertical: 12.0, horizontal: 16.0),
+              title: Text(
+                categoria,
+                // textAlign: TextAlign.center, // Alinhamento central removido
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+              trailing: const Icon(Icons.arrow_forward_ios, color: Colors.white),
               onTap: () {
                 Widget? screen;
                 switch (categoria) {
