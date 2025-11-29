@@ -53,9 +53,11 @@ class TelaCreditos extends StatelessWidget {
                                   'Aline Pereira − Zoo Bauru\n\n'
                                   '👥 Equipe de Desenvolvimento:\n'
                                   ' Carlos Eduardo Rodrigues Silva\n'
+                                  ' Cauê Mateus de Araujo\n'
                                   ' Daniel Lucarelli Cerri\n'
                                   ' Melck Silva De Oliveira Nascimento\n'
                                   ' Murilo Moretto Marques\n'
+                                  ' Vinicius Lima Santos\n'
                                   ' Vinícius Dos Santos',
                               style: TextStyle(
                                 fontSize: 20,
