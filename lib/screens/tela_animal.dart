@@ -4,6 +4,32 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:zoobaurumap/constants/animais.dart';
 import 'package:zoobaurumap/models/animal.dart';
 
+// Importa todas as telas do guia
+import 'package:zoobaurumap/screens/guia_telas/grandes_primatas_brasileiros_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/pequenos_primatas_brasileiros_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/psitacideos_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/tamanduas_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/primatas_africanos_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/suricata_mangusto_furao_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/aves_ratitas_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/corujas_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/cervideos_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/aves_rapina_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/camelideos_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/grandes_felinos_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/anta_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/pequenos_felinos_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/lobo_guara_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/irara_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/flamingos_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/pinguins_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/repteis_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/cangurus_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/aves_ribeirinhas_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/tucanos_aracaris_guia.dart';
+import 'package:zoobaurumap/screens/guia_telas/mutuns_jacus_guia.dart';
+
+
 class AnimalScreen extends StatefulWidget {
   final int indiceAnimal;
   const AnimalScreen({super.key, required this.indiceAnimal});
@@ -37,9 +63,65 @@ class _AnimalScreenState extends State<AnimalScreen> {
     return texto[0].toUpperCase() + texto.substring(1).toLowerCase();
   }
 
+  // Função para obter a tela do guia com base na categoria
+  Widget? _getGuiaScreen(String categoria) {
+    switch (categoria) {
+      case 'Grandes Primatas Brasileiros':
+        return const GrandesPrimatasBrasileirosGuiaScreen();
+      case 'Pequenos Primatas Brasileiros':
+        return const PequenosPrimatasBrasileirosGuiaScreen();
+      case 'Psitacídeos':
+        return const PsitacideosGuiaScreen();
+      case 'Tamanduás':
+        return const TamanduasGuiaScreen();
+      case 'Primatas Africanos':
+        return const PrimatasAfricanosGuiaScreen();
+      case 'Suricata, Mangusto e Furão':
+        return const SuricataMangustoFuraoGuiaScreen();
+      case 'Aves Ratitas':
+        return const AvesRatitasGuiaScreen();
+      case 'Corujas':
+        return const CorujasGuiaScreen();
+      case 'Cervídeos':
+        return const CervideosGuiaScreen();
+      case 'Aves de Rapina':
+        return const AvesRapinaGuiaScreen();
+      case 'Camelídeos':
+        return const CamelideosGuiaScreen();
+      case 'Grandes Felinos':
+        return const GrandesFelinosGuiaScreen();
+      case 'Anta':
+        return const AntaGuiaScreen();
+      case 'Pequenos Felinos':
+        return const PequenosFelinosGuiaScreen();
+      case 'Lobo-guará':
+        return const LoboGuaraGuiaScreen();
+      case 'Irara':
+        return const IraraGuiaScreen();
+      case 'Flamingos':
+        return const FlamingosGuiaScreen();
+      case 'Pinguins':
+        return const PinguinsGuiaScreen();
+      case 'Répteis':
+        return const RepteisGuiaScreen();
+      case 'Cangurus':
+        return const CangurusGuiaScreen();
+      case 'Aves Ribeirinhas':
+        return const AvesRibeirinhasGuiaScreen();
+      case 'Tucanos e Araçaris':
+        return const TucanosAracarisGuiaScreen();
+      case 'Mutuns e Jacus':
+        return const MutunsJacusGuiaScreen();
+      default:
+        return null; // Retorna nulo se não houver guia para a categoria
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     Animal animal = animais[widget.indiceAnimal];
+    final guiaScreen = _getGuiaScreen(animal.categoria);
+
     return MediaQuery(
       data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0),
       child: Scaffold(
@@ -251,6 +333,34 @@ class _AnimalScreenState extends State<AnimalScreen> {
                       ),
                     ),
                   ),
+                  // Lógica para o novo botão
+                  if (guiaScreen != null)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 5.0),
+                      child: ElevatedButton.icon(
+                        icon: const Icon(Icons.menu_book),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => guiaScreen),
+                          );
+                        },
+                        label: const Text('VER GUIA'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.green.shade900,
+                          foregroundColor: Colors.white,
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 32,
+                            vertical: 16,
+                          ),
+                          textStyle: const TextStyle(
+                            fontSize: 20,
+                            fontFamily: 'Roboto',
+                            letterSpacing: 1.0,
+                          ),
+                        ),
+                      ),
+                    ),
                 ],
               ),
               const SizedBox(height: 20),
