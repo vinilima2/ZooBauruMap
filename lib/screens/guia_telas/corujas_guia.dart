@@ -7,8 +7,12 @@ class CorujasGuiaScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Corujas"),
+        title: const Text(
+          "Corujas",
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: const Color(0xFF287240),
+        iconTheme: const IconThemeData(color: Colors.white),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),

@@ -7,8 +7,12 @@ class GrandesPrimatasBrasileirosGuiaScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Grandes Primatas Brasileiros"),
+        title: const Text(
+          "Grandes Primatas Brasileiros",
+          style: TextStyle(color: Colors.white), // Cor do título alterada
+        ),
         backgroundColor: const Color(0xFF287240),
+        iconTheme: const IconThemeData(color: Colors.white), // Garante que o ícone de voltar seja branco
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),

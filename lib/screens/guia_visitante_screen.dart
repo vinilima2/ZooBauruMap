@@ -56,8 +56,12 @@ class GuiaVisitanteScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Guia Educativo'),
+        title: const Text(
+          'Guia Educativo',
+          style: TextStyle(color: Colors.white), // Cor do título alterada
+        ),
         backgroundColor: const Color(0xFF287240),
+        iconTheme: const IconThemeData(color: Colors.white), // Garante que o ícone de voltar seja branco
       ),
       body: ListView.builder(
         itemCount: categorias.length,
@@ -144,7 +148,7 @@ class GuiaVisitanteScreen extends StatelessWidget {
                 if (screen != null) {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => screen!), // CORREÇÃO AQUI
+                    MaterialPageRoute(builder: (context) => screen!),
                   );
                 } else {
                   print('Clicou em $categoria, mas nenhuma tela foi definida.');

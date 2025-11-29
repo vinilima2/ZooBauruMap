@@ -7,8 +7,12 @@ class TamanduasGuiaScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Tamanduás"),
+        title: const Text(
+          "Tamanduás",
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: const Color(0xFF287240),
+        iconTheme: const IconThemeData(color: Colors.white),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
@@ -23,7 +27,7 @@ class TamanduasGuiaScreen extends StatelessWidget {
                 "Por possuírem uma visão pouco desenvolvida, eles são atropelados com frequência. Por ano, são registradas aproximadamente 500 mortes de tamanduás por atropelamento no Brasil."),
             const SizedBox(height: 16),
             _buildParagraph(
-                "Muitos tamanduás também sofreram com os graves incêndios no Pantanal em 2020. As queimadas na natureza são muito prejudiciais para os animais."),
+                "Muitos tamanduás também sofreram com os graves incêndios no Pantanal em 2020. As queimadas na naturezasão muito prejudiciais para os animais."),
             const SizedBox(height: 24),
             
             _buildSectionTitle("Curiosidades"),
