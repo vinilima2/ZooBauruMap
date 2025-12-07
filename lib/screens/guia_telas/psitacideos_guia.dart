@@ -6,6 +6,7 @@ class PsitacideosGuiaScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFC4D2B6),
       appBar: AppBar(
         title: const Text(
           "Psitacídeos",
@@ -82,7 +83,7 @@ class PsitacideosGuiaScreen extends StatelessWidget {
     return Text(
       text,
       textAlign: TextAlign.justify,
-      style: const TextStyle(fontSize: 18, height: 1.5),
+      style: const TextStyle(fontSize: 18, height: 1.5, color: Colors.black87),
     );
   }
 
@@ -92,12 +93,12 @@ class PsitacideosGuiaScreen extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text("• ", style: TextStyle(fontSize: 18, height: 1.5)),
+          const Text("• ", style: TextStyle(fontSize: 18, height: 1.5, color: Colors.black87)),
           Expanded(
             child: Text(
               text,
               textAlign: TextAlign.justify,
-              style: const TextStyle(fontSize: 18, height: 1.5),
+              style: const TextStyle(fontSize: 18, height: 1.5, color: Colors.black87),
             ),
           ),
         ],

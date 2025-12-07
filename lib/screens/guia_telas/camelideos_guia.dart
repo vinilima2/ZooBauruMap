@@ -6,6 +6,7 @@ class CamelideosGuiaScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFC4D2B6),
       appBar: AppBar(
         title: const Text(
           "Camelídeos",
@@ -77,7 +78,7 @@ class CamelideosGuiaScreen extends StatelessWidget {
     return Text(
       text,
       textAlign: TextAlign.justify,
-      style: const TextStyle(fontSize: 18, height: 1.5),
+      style: const TextStyle(fontSize: 18, height: 1.5, color: Colors.black87),
     );
   }
 }
